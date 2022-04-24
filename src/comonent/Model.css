@@ -1,0 +1,47 @@
+.modelStyle{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0,0,0,0.5);
+    z-index: 100;
+    padding: 20px;
+    width: 300px;
+    height: 400px;
+    transition:all 1000ms ease-in-out;
+    border-radius:50px;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(12, 6, 6, 0.5);
+    z-index: 99;
+}
+.modelStyle:hover{
+    transform: translate(-50%,-50%) scale(1.1);
+    background-color: blanchedalmond;
+}
+.overlay h1, h3{
+    font-size: 2rem;
+    font-family: cursive;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px black;
+}
+.btn2{
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: medium;
+    font-family: cursive;
+    background-color: darkgoldenrod;
+    color: white;
+    cursor: pointer;
+}
+.btn2:hover{
+    background-color: darkorange;
+}

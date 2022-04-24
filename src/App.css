@@ -1,0 +1,28 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color:rgba(0, 0,0, 0.8);
+}
+
+.btn{
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: medium;
+  font-family: cursive;
+  background-color: darkgoldenrod;
+  color: white;
+  cursor: pointer;
+}
+.App h1{
+  font-size: 2rem;
+  font-family: cursive;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px black;
+}
